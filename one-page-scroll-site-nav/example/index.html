@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>One Page Scroll Site Navigation Example</title>
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+</head>
+<body>
+	<div id="template-wrap">
+		<div class="nav-wrap">
+			<ul id="onepage-nav">
+				<li><a class="scroll" href="#home">Home</a></li>
+				<li><a class="scroll" href="#about">About</a></li>
+				<li><a class="scroll" href="#more">More</a></li>
+			</ul>
+		</div>
+		
+		<div id="home" class="section">
+			<h1>One Page Scroll Site Navigation Example</h1>
+			<div id="carbon-block"></div>
+<div><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+			<p>A jQuery plugin for creating a sticky site navigation for one page scrolling website or single page web app.</p>
+		</div>
+		<div id="about" class="section">
+			<h1>About Us</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+		<div id="more" class="section">
+			<h1>More</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/onepageNav.js"></script>
+	<script type="text/javascript">
+		jQuery('.scroll').onePgaeNav({
+			wrapper : '#onepage-nav'
+		});
+	</script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+</body>
+</html>

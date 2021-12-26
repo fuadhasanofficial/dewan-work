@@ -1,0 +1,213 @@
+
+
+
+
+
+.intro{
+    font-family: 'Bangla', sans-serif;  
+}
+
+
+
+
+
+
+
+
+
+
+.col{
+    float:left;
+    margin-left: 1%;
+
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 30%;
+    height: 634px;
+    
+    overflow: scroll;
+   
+}
+
+.col img{
+    width: 98%;
+    height:250px;
+    border-radius: 12px;
+    
+}
+
+
+.col h2{
+    color:rgb(207, 114, 26);
+}
+
+.col p{
+    color:#fff;
+}
+
+.col h4{
+    color:#ffff;
+
+}
+
+.col ul{
+    list-style-type: disc;
+    float: left;
+    text-align: left;
+  
+   
+}
+
+.cr-1{
+    line-height: 32px;
+}
+
+.col ul li{
+    color:#ffff;
+}
+
+.cor_main{
+    background-image: url("../../images/pexels-soumil-kumar-735911.jpg");
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+
+}
+
+
+.cor_txt{
+    width:80%;
+    margin: 0 auto;
+    text-align:justify;
+    color: #ffff;
+    
+}
+
+.cor_txt{
+    margin-top: 150px;
+    text-align:justify;
+}
+
+
+.cor_bt{
+    background-color: #57835a;
+    height: 250px;
+}
+
+
+.aply_btn{
+    width: 100%;
+    float: left;
+    color:rgb(69, 6, 141);
+    background-color: honeydew;
+    border-radius: 25px;
+   
+}
+
+.aply_btn:hover{
+    background-color: rgb(184, 63, 63);
+    color:#fff;
+}
+
+.cor_dt{
+    padding: 5px;
+    width:40%;
+    float: right;
+    color:rgb(230, 230, 230);
+    line-height: 15px;
+    border:2px solid red;
+    background-color: rgba(137, 43, 226, 0.623);
+    margin-top: -211px;
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+
+}
+
+
+
+.web{
+    padding: 5px;
+    width:40%;
+    float: right;
+    color:rgb(230, 230, 230);
+    line-height: 15px;
+    border:2px solid red;
+    background-color: rgba(137, 43, 226, 0.623);
+    margin-top: -211px;
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+ 
+}
+
+.cor_dt p{
+    color:rgb(222, 231, 225);
+    font-size: 15px;  
+}
+
+
+
+.color_red{
+    color:red;
+}
+.color_green{
+    color:green
+}
+
+
+.cor_gap{
+    width: 100%;
+    height: 300px;
+    background-color: cornsilk;
+}
+
+
+
+
+
+.main_cor-2{
+    width: 100%;
+    height: 500px;
+    background-image: url("../../images/pexels-oleg-magni-2058128.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+@media  screen and (min-width:320px) and (max-width:475px) {
+    .col{
+        float:none;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+@media  screen and (min-width:758px) and (max-width:898px) {
+    .cr_menu{
+        display: none;
+    }
+     .selectnav{
+         display: block;
+         width: 100%;
+         min-height: 40px;
+         text-align: center;
+         font-family: 'Bangla', sans-serif; 
+         border-bottom: 2px solid green; 
+     }
+}
+
+
+@media  screen and (min-width:476px) and (max-width:700px){
+    .col{
+        width: 47%;
+    }
+}
+
+    
+
+
+

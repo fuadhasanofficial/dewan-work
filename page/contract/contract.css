@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+.main_con{
+    width:90%;
+    border:2px solid red;
+    margin: 0 auto;
+    height: 750px;
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+.singel_con{
+    width: 360px;
+    margin-left: 3%;
+    height: 800px;
+    float:left;
+   
+}
+
+
+.con_img {
+    width: 100%;
+    background-color: black;
+}
+
+.con_img img{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.singel_con h3{
+    color:green;
+    font-family: 'Bangla', Arial, sans-serif !important;
+    margin-left: 48px;
+}
+
+
+.singel_con p {
+    margin-left: 50px;
+    font-family: 'Bangla', Arial, sans-serif !important;
+}
+
+
+.singel_con_ins p {
+    margin-left: 50px;
+    font-family: 'Bangla', Arial, sans-serif !important;
+    
+}
+
+.singel_con_ins img{
+    width: 348px;
+    text-align: center;
+    
+    height: 350px;
+}
+
+.singel_con_ins{
+    
+    width:350px;
+    border:1px solid black;
+   
+    float: left;
+    box-shadow: rgba(17, 17, 17, 0.849) 0px 2px 4px 0px inset;
+}
+
+
+
+.singel_con p img{
+    width: 20px;
+    height: 20px;
+}
+
+.singel_con_ins h5{
+    font-family: 'Bangla', Arial, sans-serif !important;
+    
+    margin-left: 48px;
+}
+
+.bangla_font{
+    font-family: 'Bangla', Arial, sans-serif !important; 
+}
+
+.podobi{
+    font-family: 'Bangla', Arial, sans-serif !important;  
+    color:rgb(141, 83, 216);
+}

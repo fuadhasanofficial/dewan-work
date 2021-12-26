@@ -1,0 +1,51 @@
+<html>
+    <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="gallery.js"></script>
+<link rel="stylesheet" type="text/css" href="gallery.css" media="screen" />
+
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: calibri,Arial , sans-serif;
+        }
+        .footer{
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            background-color: rgb(224 224 224);
+            color: black;
+        }
+        .footer p{
+            padding: 8px;
+            font-size: 12px;
+        }
+    </style>
+    <body>
+        <h1>Gallery.js</h1>
+        <img class="codeImage galleryJS" width="600px" height="324px" src="https://dummyimage.com/800x400/000/fff000" alt="source code">
+<div class="Gallery "></div>
+<div class="footer"><p>Marcel Bohland 2021</p></div>
+<script>  
+/*
+* For every Day/Project a new "addGallery"
+*/
+
+    setGalleryTransition("opacity");
+    enableExtraButtons();
+    json = '{ "Entry": { "Title": "Meine Lieblings Bilder", '+
+       '"Image": ["https://dummyimage.com/800x400/ff0000/ff0000",'+
+       '"https://dummyimage.com/800x400/000/000",'+
+       '"https://dummyimage.com/800x400/00ff00/00ff00",'+
+       '"https://dummyimage.com/800x400/000/000",'+
+       '"https://dummyimage.com/800x400/0000ff/0000ff",'+
+       '"https://dummyimage.com/800x400/000/000" ] } }';
+   addGallery(json);
+   json = '{ "Entry": { "Title": "Was ist los mit dir?",  "Image": ["https://dummyimage.com/800x400/ff0000/ff0000", "https://via.placeholder.com/1200" ] } }';
+   addGallery(json);
+</script>
+    </body>
+</html>

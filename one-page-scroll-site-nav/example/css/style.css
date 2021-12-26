@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	position: relative;
+	font-family: 'Inter';
+	line-height: 1.6;
+	background: #fafafa;
+}
+
+h1{
+	padding: 0;
+	margin-top: 0;
+}
+
+#template-wrap{
+	max-width: 767px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.nav-wrap{
+	position: fixed;
+	left: 0;
+	right: 0;
+	height: 60px;
+	width: 100%;
+	background: #4B5563;
+}
+
+#onepage-nav{
+	padding: 0;
+	width: 767px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+#onepage-nav li{
+	display: inline-block;
+	width: 100px;
+	line-height: 41px;
+	margin: 7px 0;
+}
+
+#home{
+	padding-top: 70px
+}
+
+.section{
+	min-height: 600px;
+}
+
+#onepage-nav li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#onepage-nav li a.scroll.active{
+	font-weight: 600;
+	text-decoration: underline;
+}
+
